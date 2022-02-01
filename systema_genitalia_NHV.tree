@@ -1,0 +1,421 @@
+; from Nomina Histologica Veterinaria 2017 (mammal organisms)
+systema_genitalia en:genital_systems
+	organa_genitalia_masculina en:male_genital_system
+		testis syn:orchis en:testis
+			Tunica_vaginalis
+				Lamina_parietalis
+				Lamina_visceralis
+			Tunica_albuginea
+				Stratum_vasculosum
+			Mediastinum
+			Septulum
+			Lobulus
+			Interstitium syn:Textus_connectivus_intertubularis
+				Endocrinocytus_interstititalis
+			Parenchyma
+				Tubulus_seminifer_contortus
+				Epithelium_spermatogenicum
+					Epitheliocytus_sustentans syn:Cellula_sustentacularis
+						Appraratus_junctionalis_sustentocyticus
+					Cellula_spermatogenica
+					Compartimentum_adluminale
+					Compartimentum_basale
+					Complexus_tubulobulbaris
+				Membrana_propria
+					Lamina_peritubularis
+					Lamina_basalis
+					Cellula_myoidea
+					Fibrocytus
+				Tubulus_seminifer_rectus
+				Rete_testis
+					Epithelium_simplex_cuboideum
+			Ductulus_efferens_testis
+			Ductulus_aberrans_testis
+		spermatogenesis en:spermatogenesis
+			Status_spermatogeneticus
+			Cyclus_spermatogeneticus
+			Unda_spermatogenetica
+			Cellula_spermatogenetica_precursoria en:Spermatogonial_stem_cell
+			spermatocytogenesis en:spermatocytogenesis
+				Spermatogonium
+					Spermatogonium_A
+						Spermatogonium_A_densum
+						Spermatogonium_A_lucidum
+					Spermatogonium_intermedium
+						Clonum_spermatogeneticum
+						Pons_intercellularis
+					Spermatogonium_B
+					Spermatocytus_primarius
+					Spermatocytus_secundarius
+			spermiogenesis en:spermiogenesis
+				Spermatidium
+					Spermatidium_globosum
+						Proacrosoma
+							Vesicula_proacrosomatica
+							Granulum_proacrosomaticum
+					Spermatidium_elongatum
+						Acrosoma syn:Galea_acrosomatica
+							Membrana_acrosomatica_externa
+							Membrana_acrosomatica_interna
+							Substantia_acrosomatica
+					Diplosoma
+						Centriolum_proximale
+						Centriolum_distale
+					Complexus_dictyosomaticus
+					Corpusculum_chromatoideum
+					Flagellum
+						Anulus_flagelli
+					Vagina_cytoplasmatica
+					Plica_equatorialis
+					Anulus_equatorialis
+					Manicula_caudalis
+						Microtubuli
+					Corpus_residuale
+		spermatozoon syn:spermium en:sperm_cell,male_gamete
+			Plasmalemma
+			Caput_spermatozoi
+				Nucleus_spermatozoi
+					Vacuola_nuclearis
+					Vesicula_nuclearis
+					Theca_nuclearis
+				Acrosoma syn:Galea_acrosomatica
+					Membrana_acrosomatica_interna
+					Membrana_acrosomatica_externa
+					Substantia_acrosomatica
+					Granulum_acrosomale
+				Perforatorium
+				Tela_subacrosomatica
+				Vagina_postacrosomatica
+				Anulus_caudalis
+				Recessus_nuclearis
+				Fossula_articularis
+			Collum_spermatozoi
+				Fossula_articularis
+					Pars_connectens
+					Centriolum_proximale
+					Scutum_basale
+			Cauda_spermatozoi syn:Flagellum
+				Axonema
+					Microtubulus_centralis
+					Diplomicrotubulus_periphericus
+				Pars_intermedia
+					Patella_basalis
+					Basis_columnaris
+					Capitulum
+					Columna_striata
+					Centriolum_distale
+					Fibra_densa_externa
+					Vagina_mitochondrialis
+					Anulus_terminalis
+				Pars_principalis
+					Fibra_densa_externa
+					Vagina_fibrosa
+						Columna_longitudinalis
+						Costa_fibrosa
+				Pars_terminalis
+		epididymis en:epididymis
+			Tunica_serosa
+				Tela_subserosa
+			Tunica_albuginea_epididymis
+			Ductulus_efferens_testis
+				Epithelium_unistratificatum_columnare
+					Epitheliocytus_microvillosus
+					Epitheliocytus_ciliatus
+				Stratum_fibromusculare
+			Septum_epididymis
+			Lobulus_epididymis
+			Ductus_epididymis
+				Epithelium_pseudostratificatum_columnare
+					Epitheliocytus_stereociliatus
+					Epitheliocytus_basalis
+				Stratum_fibromusculare
+				Interstitium
+			Appendix_epididymis
+				Ductulus_aberrans
+			Paradidymis
+				Ductulus_paradidymis
+		ductus_deferens en:ductus_dferens,vas_deferens
+			Tunica_mucosa
+				Plica_tunicae_mucosae
+				Epithelium_pseudostratificatum_columnare
+					Epitheliocytus_stereociliatus
+					Epitheliocytus_basalis
+				Lamina_propria_mucosae
+					Glandula_ampullaris
+			Tunica_muscularis
+				Stratum_longitudinale_internum
+				Stratum_circulare
+				Stratum_longitudinale_externum
+			Tunica_adventitia
+			Tunica_serosa
+				Tela_subserosa
+			Pars_glandularis_ductus_defrentis
+				Glandula_ampullaris
+			Ductus_ejaculatorius
+		glandulae_genitales_accessoriae en:accessory_genital_glands
+			Epitheliocytus_basalis_adipoideus
+			pars_glandularis_ductus_deferentis en:glandular_part_of_the_deferent_duct
+			glandula_vesicularis en:vesicular_gland
+				Tunica_adventitia
+				Tunica_serosa
+					Tela_subserosa
+				Tunica_muscularis
+				Septulum_glandulae_vesicularis
+				Lobulus_glandulae_vesicularis
+				Parenchyma_glandulae_vesicularis
+					Tunica_mucosa_glandulae_vesicularis
+						Epithelium_pseudostratificatum_columnare
+							Exocrinocytus_mucosus syn:Mucocytus
+					Lamina_fibromuscularis
+			prostata en:prostate,prostate_gland
+				Tunica_adventitia
+				Tunica_serosa
+					Tela_subserosa
+				Tunica_muscularis
+				Capsula_prostatae
+					Stratum_vasculosum
+					Stratum_fibrosum
+					Stratum_musculare
+					Stratum_prostaticum
+				Lobus_glandularis
+					Lobulus_glandularis
+				Parenchyma_glandulare_prostatae
+					Tunica_mucosa_prostatae
+						Epithelium_glandulare_prostatae
+							Exocrinocytus_prostaticus
+							Endocrinocytus_prostaticus
+					Concretio_prostatica
+					Stroma_fibromyoelasticum
+					Ductulus_prostaticus
+					Ductus_prostaticus
+			glandula_bulbourethralis en:bulbourethral_gland
+				Tuncia_adventitia
+				Tunica_muscularis
+				Parenchyma_glandulae_bulbourethralis
+					Tunica_mucosa
+						Epithelium_glandulare_bulbourethralis
+							Exocrinocytus_glandulae_bulbourethralis
+					Ductulus_glandulae_bulbourethralis
+					Ductus_glandulae_bulbourethralis
+		penis en:penis
+			Tunica_mucosa_cutanea
+				Epithelium_stratificatum_squamosum_cornificatum
+					Spina_glandis
+				Lamina_propria_mucosae
+					Noduli_lymphatici
+			Fascia_penis_superficialis
+			Fascia_penis_profunda
+			Corpus_cavernosum_penis
+				Tunica_albuginea_corporis_cavernosi
+				Septum_penis
+				Trabecula_corporis_cavernosi
+				Cavernae_corporis_cavernosi
+				Arteria_helicina
+				Vena_cavernosa
+				Vena_emissaria_corporis_cavernosi
+				Os_penis
+			Corpus_spongiosum_penis_s_glandis
+				Tunica_albuginea_corporis_spongiosi
+				Trabecula_corporis_spongiosi
+				Cavernae_corporis_spongiosi
+		urethra_masculina en:male_urethra
+			Pars_pelvina
+				Tunica_mucosa_urethrae_masculinae
+					Urothelium syn:Epithelium_transitionale
+						Exocrinocytus_mucosus syn:Mucocytus
+					Lamina_propria
+						Stratum_glandulare
+						Stratum_spongiosum
+				Tunica_muscularis
+					Textus_muscularis_striatus_syncytialis
+			Pars_penina
+				Tunica_mucosa_urethrae_masculinae
+					Urothelium syn:Epithelium_transitionale
+					Epithelium_stratificatum_squamosum_noncornificatum
+					Lamina_propria
+						Glandula_urethralis
+		praeputium en:prepuce,foreskin ru:крайняя_плоть
+			Lamina_externa_praeputi
+			Textus_muscularis_striatus_syncytialis
+			Lamina_interna_praeputi
+				Tunica_mucosa_cutanea
+					Epithelium_stratificatum_squamosum
+						Epitheliocytus_sebaceus
+							Smegma_praeputi
+					Lamina_propria_mucosae
+						Glandula_praeputalis
+						Noduli_lymphatici
+			Lamina_penis_praeputii
+		scrotum en:scrotum ru:мошонка
+			Cutis_scroti
+				Tunica_dartos
+					Textus_muscularis_levis
+					Fibra_elastica
+	organa_genitalia_feminina en:female_genital_system
+		ovarium en:ovary ru:яичники
+			Epithelium_superficiale
+				Mesotheliocytus_cuboideus_microvillosus
+			Stroma_ovarii
+				Textus_connectivus_spinocellularis
+				Endocrinocytus_interstitialis_ovarii
+			Zona_parenchymatosa
+				Folliculus_ovaricus_primordialis
+					Epithelium_simplex_cuboideum_folliculi_ovarici_primarii
+						Epitheliocytus_follicularis_primarius
+					Ovocytus_primarius
+				Folliculus_ovaricus_secundarius
+					Theca_folliculi
+					Lamina_basalis_folliculi
+					Epithelium_stratificatum_cuboideum_folliculi
+						Epitheliocytus_follicularis_secundarius
+					Zona_pellucida
+					Ovocytus_primarius
+				Folliculus_ovaricus_tertiarius syn:Folliculus_ovaricus_vesiculosus
+					Theca_externa
+						Fibroblastus_thecalis
+					Theca_interna
+						Endocrinocytus_thecalis
+					Lamina_basalis_folliculi
+					Epithelium_folliculi
+						Stratum_granulosum
+							Epitheliocytus_granularis
+					Antrum_folliculi
+						Liquor_folliculi
+					Complexus_cumuli_oophori
+						Cumulus_oophorus
+							Epithelium_folliculi
+								Stratum_granulosum
+								Corona_radiata
+						Zona_pellucida
+						Ovocytus_primarius
+				Folliculus_ovaricus_tertiarius_maturus
+					Ovocytus_secundarius
+						Stigma_folliculare
+				Folliculus_atreticus
+				Corpus_atreticum
+				Corpus_haemorrhagicum
+				Corpus_luteum
+					Corpus_luteum_cyclicum_s_gravidatis
+						Endocrinocytus_corporis_lutei syn:Luteocytus
+							Granulosoluteocytus
+							Thecaluteocytus
+						Fibroblastus_thecalis
+					Corpus_luteum_regrediens
+					Corpus_albicans
+			Zona_vasculosa
+				Chorda_medullaris
+				Tubulus_medullaris
+				Endocrinocytus_interstitialis_ovarii
+				Rete_ovarii
+		ovogenesis_et_zygosis en:ovogenesis_and_zygosis
+			Ovogonium
+			Ovocytus_primarius
+				Polocytus_primarius
+			Ovocytus_secundarius
+				Polocytus_secundarius
+			Zygota
+		epoophron en:epoophron
+			Ductus_epoophori_longitudinalis
+				Ductulus_transversus
+			Appendix_vesiculosa
+		paraoophoron en:paraoophoron
+			Ductulus_paroophori
+		tuba_uterina syn:salpinx en:uterine_tube
+			Tunica_mucosa
+				Plica_tubae_uterinae
+				Epithelium_simplex_columnare
+					Epitheliocytus_ciliatus
+					Exocrinocytus_tubarius
+				Lamina_propria_mucosae
+			Tunica_muscularis
+				Stratum_circulare
+				Stratum_longitudinale
+			Tunica_serosa
+		uterus en:uterus
+			Tunica_mucosa syn:Endometrium
+				Partim_cornua_et_corpus
+					Epithelium_simplex_columnare
+						Epitheliocytus_ciliatus
+						Epitheliocytus_microvillosus
+					Epithelium_pseudostraticum_columnare
+					Lamina_propria syn:Stroma_endometrialis
+						Stratum_internum
+						Stratum_externum
+						Glandula_uterina
+					Caruncula
+					Microcaruncula
+				Partim_portio_praevaginalis_cervicis
+					Epithelium_simplex_columnare
+						Epitheliocytus_superficialis
+							Exocrinocytus_mucosus
+							Epitheliocytus_ciliatus
+					Lamina_propria
+						Glandula_cervicis_uteri
+							Exocrinocytus_mucosus
+				Partim_portio_vaginalis_cervicis
+					Epithelium_stratificatum_squamosum
+					Lamina_propria_mucosae
+			Tunica_muscularis syn:Myometrium
+				Stratum_circulare
+				Stratum_vasculosum
+				Stratum_longitudinale
+			Tunica_serosa syn:Perimetrium
+				Tela_subserosa
+			Mesomerium
+				Tunica_serosa
+					Tela_subserosa
+				Textus_muscularis_nonstriatus
+		vagina en:vagina
+			Tunica_mucosa
+				Epithelium_stratificatum_squamosum
+				Epithelium_stratificatum_squamosum_cornescens
+				Epithelium_stratificatum_squamosum_noncornificatum
+					Exocrinocytus_mucosus
+				Lamina_propria
+			Tunica_muscularis_vaginae
+				Stratum_circulare
+				Stratum_longitudinale
+			Tunica_adventitia_s_tunica_serosa
+		vestibulum_vaginae en:vestibule_of_the_vagina
+			Tunica_mucosa
+				Epithelium_stratificatum_squamosum
+				Lamina_propria_mucosae
+						Glandula_vestibularis_minor
+						Glandula_vestibularis_major
+							Lobulus_glandulae
+								Portio_terminalis_alveolaris
+									Exocrinocytus_mucosus
+								Portio_terminalis_tubulosa
+								Ductus_interlobarius
+									Sinus_ductus
+								Ductus_glandulae
+			Bulbus_vestibuli
+		vulva en:vulva
+			Labium_vulvae
+				Labium_majus_vulvae
+				Labium_minus_vulvae
+			Clitoris
+				Corpus_cavernosum_clitoridis
+					Tunica_albuginea_corporis_cavernosi_clitoridis
+					Trabecula_corporis_cavernosi_clitoridis
+					Cavernae_corporis_cavernosi_clitoridis
+				Corpus_spongiousm_glandis_clitoridis
+					Tunica_albuginea_corporis_spongiosi
+					Trabecula_corporis_spongiosi
+					Cavernae_corporis_spongiosi
+		urethra_feminina en:female_urethra
+			Tunica_mucosa
+				Urothelium syn:Epithelium_transitionale
+					Stratum_superficiale
+						Crusta_urothelialis
+					Stratum_intermedium
+					Stratum_basale
+				Lamina_propria_mucosae
+					Glandula_urethralis
+					Lacuna_urethralis
+					Stratum_spongiousum
+			Tunica_muscularis
+				Textus_muscularis_nonstriatus
+				Textus_muscularis_striatus_syncytialis
+				
+						

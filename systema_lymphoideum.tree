@@ -1,0 +1,147 @@
+systema_lymphoideum en:lymphoid_system
+	textus_lymphoideus en:lymphoid_tissue
+		Cellula_interdigitans
+		Cellula_dendritica_nodularis
+	organa_lymphoidea_primaria en:primary_lymphoid_organs
+		medulla_ossium_rubra en:red_bone_marrow,haematopoietic_bone_marrow
+			Cellula_stromalis_medullae_rubrae
+			Cellula_haematopoietica_precursoria
+				Cellula_thymocytopoietica_progenetrix
+					Prothymocytus
+		thymus en:thymus
+			Capsula
+			Septum_corticale
+			Lobus_thymicus
+				Lobulus_Thymicus
+			Cortex_thymi
+			Claustrum_haematothymicum
+				Epithelium_perivasculare_subcapsulare
+				Cytoreticulum_corticale
+					Epitheliocytus_reticularis_perivascularis syn:Epitheliocytus_reticularis_typi_I
+					Epitheliocytus_reticularis_typi_II
+					Macrophagocytus
+					Epitheliocytus_reticularis_typi_III
+					Cellula_nutricia_thymocytorum
+			Cellula_haematopoietica_precursoria
+				Cellula_haematopoietica_progenetrix
+					Prothymocytus
+						Thymocytus_corticalis
+			Medulla_thymi
+				Cytoreticulum_medullare
+					Epitheliocytus_reticularis_typi_IV
+					Epitheliocytus_reticularis_typi_V
+					Thymocytus_medullaris
+					Epitheliocytus_reticularis_typi_VI
+					Corpusculum_thymicum
+				Nodulus_lymphoideus_thymicus
+			progenetrix_cellularum_T en:T-cell_lineage
+				Cellula_haematopoietica_precursoria en:Haematopoietic_stem_cell
+				Cellula_thymocytopoietica_progenetrix en:Thymocytopoietic_progenitor_cell
+				Prothymocytus en:Prothymocyte
+				Thymocytus_corticalis en:Cortical_thymocyte,Double_positive_T_cell
+				Thymocytus_medullaris en:Medullary_thymocyte,Single_positive_T_cell
+					Cellulae_T_regulatrices en:Regulator_T_cell,CD4+_T_cells
+						Cellula_T_adjuvans en:Helper_T_cell,Th_cell
+							Cellula_T_adjuvans_typi_I en:Type_1_helper_T_cell,Th1_cell
+							Cellula_T_adjuvans_typi_I en:Type_2_helper_T_cell,Th2_cell
+							Cellula_T_hypersensus_retardati en:Delayed_hypersensitivity_T_cell,Tdh_cell
+							Cellula_T_amplificator en:Amplifier_T_cell,Ta_cell
+						Cellula_T_memoriae en:T_memory_cell,Tm_cell
+					Cellulae_T_efficientes en:Effector_T_cells
+						Cellula_T_cytotoxica en:Cytotoxic_T_cell,Tc_cell
+							Cellula_necatoria_anticorporibus_non_subjecta en:Antibody_independent_natural_killer_cell,NK_cell
+							Cellula_necatoria_anticorporibus_subjecta en:Antibody_dependent_natural_killer_cell,K_cell
+								Cellula_necatoria_antigenica en:Cytotoxic_T_cell_of_immunization
+					Cellula_T_supprimens en:Suppressor_T_cell,Ts_cell
+				Lymphocytus_B en:B_lymphocyte
+				Cellula_B_memoriae en:Memory_B_cell
+				Cellula_B_efficiens en:Effector_B_cell
+				Epitheliocytus_membranaformis en:Membrane-like_epithelial_cell,M_cell
+				Lymphocytus_T en:T_lymphocyte
+	organa_lymphoidea_secundaria
+		nodulus_lymphoideus
+			Nodulus_lymphoideus_primarius
+			Nodulus_lymphoideus_secundarius
+				Centrum_germinativum
+				Zona_marginalis
+					Galea
+					Zona_densa
+					Iccosoma
+			Lymphocytus_B
+			Cellula_B_memoriae en:Memory_B_cell
+			Cellula_B_efficiens en:Effector_B_cell
+			Plasmocytus en:Plasmocyte,Plasma_cell,Plasmacyte
+		acervalio_lymphoidea_peripherica_fugitiva en:transient_peripheral_lymphoid_aggregate
+			textus_lymphoideus_adjunctus_superficies en:surface_associated_lymphoid_tissue en-abbr:SALT
+				Textus_lymphoideus_adjunctus_broncho en:Bronchus_associated_lymphoid_tissue en-abbr:BALT
+				Textus_lymphoideus_adjunctus_intestino en:Gut_associated_lymphoid_tissue en-abbr:GALT
+				Textus_lymphoideus_adjunctus_mucosae en:Mucosa_associated_lymphoid_tissue en-abbr:MALT
+				Textus_lymphoideus_adjunctus_naso en:Nose_associated_lymphoid_tissue en-abbr:NALT
+				Textus_lymphoideus_adjunctus_systemati_urinario en:Urinary_tract_associated_lymphoid_tissue en-abbr:UTALT
+				Textus_lymphoideus_adjunctus_tunicae_conjunctivae en:Conjuctiva_associated_lymphoid_tissue en-abbr:CALT
+				Nodulus_lymphoideus
+				Epitheliocytus_membranaformis
+					Epitheliocytus_membranaformis_nodulo_adjunctus
+					Venula_altoendothelialis syn:Venula_cum_endothelio_alto
+		nodus_lymphoideus syn:nodus_lymphaticus,Lymphonodus en:Lymph_node
+			Capsula
+			Spatium_subcapsulare
+			Vas_lymphaticum_afferens
+				Valva_lymphatica
+			Cortex
+				Pars_nodularis
+				Pars_diffusa
+					Pars_internodularis
+					Pars_profunda
+			Sinus_lymphaticus
+				Sinus_marginalis syn:Sinus_subcapsularis
+				Sinus_internodularis
+			Nodulus_lymphoideus
+			Paracortex
+				Venula_altoendothelialis syn:Venula_cum_endothelio_alto
+				Zona_thymdependens
+					Lymphocytus_T en:T_Lymphocyte
+			Medulla
+				Chorda_medullaris
+				Sinus_lymphaticus_medullaris
+			Trabecula
+				Trabecula_corticalis
+				Trabecula_medullaris
+			Hilum
+				Vas_lymphaticum_efferens
+					Valva_lymphatica
+			Nodus_lymphohaemalis
+			Nodus_haemalis
+		splen syn:lien en:spleen
+			Tunica_serosa
+			Capsula syn:Tunica_fibrosa
+			Hilum
+			Trabecula_splenica
+				Arteria_trabecularis
+			Myocytus_levis syn:Myocytus_nonstriatus
+			Pulpa_splenica syn:Pupa_lienalis
+				Pulpa_alba
+					Zona_marginalis_pulpae_albae
+					Arteria_vaginata_pulpae_albae
+						Vagina_lymphoidea_periarteriolaris
+							Lymphocytus_T
+					Nodulus_lymphoideus_splenicus
+						Arteriola_centralis syn:Arteriola_nodularis
+				Pulpa_rubra
+					Arteria_pulpae_rubrae
+					Arteria_penicillaris
+					Arteriola_penicillaris
+						Vagina_periarteriolaris_macrophagocytica
+					Vas_sinusoideum_splenicum
+						Endothelium_disjunctum
+						Endotheliocytus_fusiformis
+						Fibra_reticularis_anularis syn:Anulus_laminae_basalis
+					Spatium_intersinusoideum_splenicum
+						Chorda_splenica
+					Vena_pulpae_rubrae
+					Vena_trabecularis
+		tonsilla en:tonsil
+		
+			
+						
+				

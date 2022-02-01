@@ -1,0 +1,568 @@
+systema_digestorium en:alimentary_system
+	os en:mouth
+		cavitas_oris en:oral_cavity
+			Tunica_micosa
+				Tunica_micosa_vestiens
+				Tunica_micosa_masticatoria
+				Epithelium_stratificatum_squamosum_non_cornificatum
+				Epithelium_stratificatum_squamosum_paracornificatum
+				Epithelium_stratificatum_squamosum_cornificatum
+			labia_oris en:lips
+				Pars_cutanea
+				Pars_intermedia
+					Glandula_subacea
+				Pars_mucosa
+					Epithelium_stratificatum_squamosum_non_cornificatum
+					Glandula_labialis
+			bucca en:cheek
+				Tunica_mucosa_vestiens
+				Glandula_buccalis
+				Glandula_molaris
+				Stratum_musculare_striatum
+				Organum_juxtaorale
+					Parenchyma_axiale
+					Stratum_fibrosum_internum
+					Stratum_nervosum
+					Stratum_fibrosum_externum
+				Zona_adiposa
+				Corpus_adiposum_buccae
+			palatum en:palate
+				Palatum_durum
+					Tunica_mucosa
+						Zona_fibrosa
+						Zona_adiposa
+						Zona_glandularis
+				Palatum_molle syn:Velum_palatinum
+					Facies_nasopharyngea
+						Tunica_mucosa_respiratoria
+					Facies_oropharyngea
+						Tunica_mucosa
+					Stratum_elasticum
+					Tela_submucosa
+						Glandula_palatina
+					Lamina_tendinomuscularis
+			gingiva en:gingiva,gum
+				Gingiva_marginalis syn:Pars_libera_gingivae
+					Junctio_dentogingivalis
+						Epithelium_junctionale
+							Epithelium_stratificatum_squamosum_non_cornificatum
+						Stratum_basale
+						Stratum_suprabasale
+						Lamina_basalis_superfacialis syn:Lamina_basalis_interna
+						Lamina_basalis_profunda
+				Sulcus_gingivalis
+					Epithelium_sulci_gingivalis syn:Epithelium_sulculare
+						Epithelium_stratificatum_squamosum_non_cornificatum
+						Epithelium_stratificatum_squamosum_paracornificatum
+				Margo_gingivalis
+					Epithelium_gingivale_orale
+						Epithelium_stratificatum_squamosum_paracornificatum
+						Epithelium_stratificatum_squamosum_cornificatum
+				Gingiva_alveolaris syn:Pars_affixa_gingivae
+					Impressiones_gingivales
+					Epithelium_gingivale_alveolare
+						Epithelium_stratificatum_squamosum_cornificatum
+						Epithelium_stratificatum_squamosum_paracornificatum
+				Linea_mucogingivalis syn:Linea_girlandiformis
+				Papilla_gingivalis syn:Papilla_interdentalis
+					Papilla_gingivalis_vestibularis
+					Sella_interdentalis syn:Sella_interpapillaris
+					Papilla_gingivalis_lingualis
+					Epithelium_gingivale_papillare
+				Apparatus_fibrosus_supraalveolaris
+					Fibra_alveologingivalis
+					Fibra_circularis
+					Fibra_dentogingivalis
+					Fibra_dentoperiostalis
+					Fibra_intercircularis
+					Fibra_intergingivalis
+					Fibra_interpapillaris
+					Fibra_periostogingivalis
+					Fibra_semicircularis
+					Fibra_transgingivalis
+					Fibra_transseptalis
+			glandulae_salivariae syn:glandulae_oris en:salivary_glands,glands_of_mouth
+				Glandulae_salivariae_majores
+					Glandula_parotidea
+					Glandula_sublingualis
+					Glandula_submandibularis
+				Glandulae_salivariae_minores
+					Glandula_buccalis
+					Glandula_molaris
+					Glandula_labialis
+					Glandulae_linguales
+						Glandula_lingualis_anterior
+						Glandula_lingualis_posterior
+							Glandula_gustatoria syn:Pars_profunda
+							Glandula_radicis_linguae syn:Pars_superficialis
+					Glandulae_palatinae
+						Glandula_palati_duri
+						Glandula_palati_mollis
+						Glandula_glossopalatina
+				Glandula_salvaria_serosa
+				Glandula_salvaria_mixta
+				Lobus
+					Lobulus
+				Portio_terminalis
+					Semiluna_seromucosa
+					Semiluna_serosa
+					Acinus
+					Alveolus
+					Tubulus
+					Tubuloacinus
+					Tubuloalveolus
+					Mucocytus
+						Vesicula_mucosa syn:Guttula_mucosa
+						Corpus_filamentosum
+					Serocytus
+					Seromucocytus
+						Granulum_secretorium
+					Myoepitheliocytus_fusiformis
+					Myoepitheliocytus_stellatus
+				Ductus_intralobularis
+					Ductus_intercalatus
+					Ductus_striatus
+				Ductus_excretorius
+					Ductus_interlobularis_striatus
+					Ductus_interlobularis
+					Ductus_interlobaris
+				Cellula_principalis
+				Cellula_basalis
+				Ductus_excretorius_principalis
+			dens en:tooth
+				Corona_dentis
+				Cervix_dentis
+				Radix_dentis
+				Cavitas_dentis syn:Cavitas_pulparis
+					Cavitas_coronae
+					Cornu_cevitatis_dentis
+					Canalis_radicis_dentis
+						Systema_canalium_radicis_dentis
+						Foramen_apicis_dentis
+				Enamelum
+					Enameloblastus syn:Ameloblastus
+					Prisma_enameli
+						Membrana_prismatica
+						Stria_transversa_obscura
+							Crystallum_hydroxyapatiti_enameli
+						Processus_enameloblasti
+						Cuticula_dentis
+						Lamella_enamelea
+						Fusus_enameli
+						Fasciculus_enameli
+						Junctio_dentinoenameli
+						Linea_incrementalis_enamelea
+							Linea_neonatalis
+				Dentinum
+					Tubulus_dentini syn:Canaliculus_dentini
+						Ramus_lateralis
+					Processus_dentinoblasti syn:Processus_odontoblasti
+						Fibra_dentinalis
+					Dentinum_peritubulare
+					Dentinum_intertubulare
+					Dentinum_vestiens
+					Lamella_dentinalis
+					Substantia_fundamentalis
+						Crystallum_hydroxyapatiti_dentini
+					Linea_incrementalis_dentinalis
+					Dentinum_globulare
+						Globulus_mineralis syn:Calcospherula
+					Dentinum_interglobulare
+					Spatium_interglobulare
+					Dentinum_juxtapulpare
+					Predentium
+						Fibra_predentinalis
+					Dentinum_primarium
+					Dentinum_secundarium
+					Dentinum_tertiarium
+					Stratum_granulosum_dentini
+					Juncto_dentinocementalis
+				Cementum
+					Cementum_non_cellulare
+					Cementum_cellulare
+					Cementoblastus
+					Substantia_fundamentalis
+						Lacuna
+						Canaliculus
+						Fibra_cementalis
+							Fibra_perforans_cementalis
+						Crystallum_hydroxyapatiti
+						Linea_incrementalis_enamelea
+				Pulpa_dentis
+					Pulpocytus
+					Dentinoblastus syn:Odontoblastus
+					Stratum_subdentinoblasticum
+					Plexus_neuralis_subdentinoblasticus
+					Pulpa_coronalis
+						Cornu_pulpale
+					Pulpa_radicularis
+				Periodontum syn:Desmodontium
+					Textus_connectivus_compactus
+						Fibra_apicalis
+						Fibra_horizontalis
+						Fibra_obliqua
+						Fragmentum_epitheliale
+					Ligamentum_periodontale
+					Ligamentum_gingivale
+					Ligamentum_dentoalveolare
+						Fibra_cementoalveolaris
+						Fibra_interradicularis
+						Fibra_interdentalis
+					Periosteum_alveolare
+					Alveolus_dentalis
+					Septum_interradiculare
+					Septum_interalveolare
+				Endodontium
+				Ectodontium
+				Parodontium
+			odontogenesis en:odontogenesis
+				Lamina_dentalis
+				Germen_dentis
+					Organum_enameleum
+						Status_gemmalis
+						Status_galearis
+						Status_campanalis
+						Epithelium_enameleum_externum
+						Pulpa_enamelea syn:Reticulum_stellatum
+						Stratum_intermedim
+						Epithelium_enameleum_internum
+							Enameloblastus syn:Ameloblastus
+					Cuticula_enameli
+						Cuspis_dentalis
+						Vagina_epithelialis_radicis_dentis
+							Cementoblastus
+				Residuum_epitheliale
+				Papilla_dentalis
+				Saccus_dentalis
+				Junctio_dentinoenamelea
+			lingua en:tongue
+				Tunica_mucosa
+				Papilla_lingualis
+					Papilla_filiformis
+					Papilla_fungiformis
+					Papilla_foliata
+						Follum_papillae
+						Sulcus_papillae
+						Textus_connectivus_compactus
+					Papilla_vallata
+						Vallum_papillae
+						Sulcus_papillae
+				Gemma_gustatoria syn:Caliculus_gustatorius
+					Porus_gustatorius
+					Epitheliocytus_gustatorius
+						Epitheliocytus_gustatorius_I
+						Epitheliocytus_gustatorius_II
+						Epitheliocytus_gustatorius_III
+						Epitheliocytus_gustatorius_IV syn:Epitheliocytus_basalis
+					Epitheliocytus_sustenans
+					Epitheliocytus_basalis
+				Glandulae_linguales
+					Glandula_lingualis_anterior syn:Glandula_lingualis_apicalis
+					Glandula_lingualis_posterior
+						Pars_profunda syn:Glandula_gustatoria
+						Pars_superficialis syn:Glandula_radicis_linguae
+				Tonsilla_lingualis
+					Crypta
+				Textus_muscularis_striatus_skeletalis
+					Myofibra_lingualis_longitudinalis
+					Myofibra_lingualis_transversalis
+					Myofibra_lingualis_verticalis
+					Myofibra_lingualis_obliqua
+			fauces en:fauces
+				Epithelium_stratificatum_squamosum_non_cornificatum
+				Tonsilla_palatina
+				Fossula_tonsilae
+					Crypta_tonsilae
+				Nodulus_lymphoideus
+					Epithelium_adjunctum_nodulo
+				Capsula_tonsillae
+			pharynx en:pharynx
+				Tnica_mucosa
+				Tela_submucosa
+					Glandula_pharyngea
+				Tunica_muscularis
+					Textus_muscularis_striatus_visceralis_non_cardiacus
+						Myofibra_pharyngea_longitudinalis
+						Myofibra_pharyngea_constrictor
+				Pars_nasalis_pharyngis
+					Epithelium_respiratorium
+					Tonsilla_pharyngea
+					Tonsilla_tubaria
+				Pars_oralis_pharyngis
+					Epithelium_squamosum_stratificatum_cornificatum
+				Pars_laryngea_pharyngis
+				Musculi_pharyngis syn:Tunica_muscularis_pharyngis
+	canalis_digestorius syn:canalis_oesophagogastrointestinalis en:alimentary_canal
+		Cellula_gastrointestinalis_precursoria
+		Tunica_mucosa
+			Lamina_epithelialis
+			Lamina_propria_mucosae
+				Rete_lymphocapillare_subepitheliale
+			Lamina_muscularis_mucosae
+		Tela_submucosa
+			Plexus_nervosus_submucosus_internus
+			Plexus_nervosus_submucosus_externus
+			Plexus_lymphaticus_submucosus
+		Tunica_muscularis
+			Stratum_circulare
+			Plexus_nervosus_myentericus
+			Plexus_vascularis_myentericus
+			Startum_longitudinale
+			Plexus_lymphaticus_intramuscularis
+		Tunica_adventitia
+			Tunica_fibrosa
+		Tela_subserosa
+			Plexus_lymphaticus_subserosus
+		Tunica_serosa
+			Lamina_propria_serosae
+			Mesothelium
+		Endocrinocyti_gastroenteropancreatici syn:Endocrinocyti_GEP
+		Endocrinocytus_A syn:Glucagonocytus
+		Endocrinocytus_B syn:Insulinocytus
+		Endocrinocytus_D syn:Somatostationcytus
+		Endocrinocytus_D
+		Endocrinocytus_EC
+		Endocrinocytus_ECL
+		Endocrinocytus_G
+		Endocrinocytus_I
+		Endocrinocytus_K
+		Endocrinocytus_L
+		Endocrinocytus_PP
+		Endocrinocytus_PYY
+		Endocrinocytus_S
+		Endocrinocytus_secretans_ghrelinum
+		Endocrinocytus_penicillatus
+		Cellula_enetrica_interstitialis_stimulans
+		oesophagus en:oesophagus
+			Tunica_mucosa
+				Epithelium_stratificatum_squamosum_non_cornificatum
+					Cellula_dendritiformis
+				Glandula_oesophagea
+					Glandula_oesophagea_superior
+					Glandula_cardialis_oesophagi
+				Lamina_muscularis_mucosae
+			Tela_submucosa
+				Glandula_submucosa
+				Mucocytus
+				Seromucocytus
+				Myoepitheliocytus
+			Tunica_muscularis
+				Myocytus_levis_internus_circularis
+				Myocytus_levis_externus_longitudinalis
+				Myofibra_striata_visceralis_non_cardiaca
+			Tunica_adventitia
+		gaster en:stomach
+			Tunica_mucosa
+				Foveola_gastrica
+				Epithelium_simplex_columnare
+				Mucocytus_superficiei
+				Glandula_cardialis_gastris
+					Exocrynocytus_cardialis
+				Glandula_gastrica_propria
+					Isthmus
+					Cervix
+						Exocrinocytus_cervicalis
+					Pars_principalis
+						Exocrynocytus_principalis
+							Granulum_zymogeni
+						Exocrynocytus_parietalis syn:Exocrynocytus_oxynticus
+							Canaliculus_intracellularis
+						Canaliculus_intercellularis
+				Glandula_pylorica
+					Mycocytus_glandulae_pyloricae
+				Lamina_propria
+					Nodulus_lymphoideus
+				Lamina_muscularis_mucosae
+			Tela_submucosa
+			Tunica_muscularis
+				Myocytus_levis_internus_circularis
+				Myocytus_levis_externus_longitudinalis
+				Myocytus_levis_obliquus
+			Tunica_serosa
+				Tela_subserosa
+				Lamina_propria_serosae
+				Mesothelium
+	intestinum_tenue en:small_intestine
+		Plicae_circulares
+		Villus_intestinalis
+		Tunica_mucosa
+			Epithelium_simplex_columnare
+				Enterocytus
+					Glycocalix
+					Limbus_microvillosus syn:Limbus_penicillatus,Limbus_striatus
+					Trama_terminalis
+				Exocrynocytus_caliciformis
+				Epitheliocytus_microplicatus
+			Lamina_propria
+				Lamina_propria_villi
+					Myocytus_levis_villi
+				Vas_lymphaticum_centrale
+			Crypta_intestinalis syn:Glandula_intestinalis
+				Exocrynocytus_caliciformis
+				Cellula_panethensis syn:Exocrinocytus_cum_granulis_acidophilicis
+			Lamina_muscularis_mucosae
+		Nodulus_lymphoideus_solitarius
+		Noduli_lymphoidei_aggregati
+		Tela_submucosa
+			Nodulus_lymphoideus_aggreagtus_submucosus
+		Tunica_muscularis
+			Myocitus_lebis_internus_circularis
+			Myocitus_lebis_externus__longitudinalis
+		Tunica_serosa
+			Tela_subserosa
+			Lamina_propria_serosae
+			Mesothelium
+		Duodenum
+			Glandula_submucosa_duodenalis
+				Mucocytus_glandulae_submucosae_duodenalis
+		Jejunum
+		Ileum
+	intestinum_crassum en:large_intestine
+		Tuncia_mucosa
+			Epithelium_simplex_columnare
+				Colonocytus
+					Colonicytus_adluminalis
+					Colonocytus_cryptalis
+					Limbus_microvillosus syn:Limbus_penicillatus,Limbus_striatus
+				Exocrynocytus_caliciformis
+			Lamina_propria
+				Crypta_intestinalis syn:Glandula_intestinalis
+				Nodulus_lymphoideus_solitarius
+			Lamina_muscularis_mucosae
+		Tela_submucosa
+			Nodulus_lymphoideus_aggregatus_submucosus
+		Tunica_muscularis
+			Myocytus_levis_internus_circularis
+			Myocytus_levis_externus_longitudinalis
+				Taenia_coli
+		Tunica_serosa
+			Tela_subserosa
+			Lamina_propria_serosae
+			Mesothelium
+		Caecum
+		Appendix_vermiformis
+			Cellula_panethensis syn:Exocrynocytus_cum_granulis_acidophilis
+			Nodulus_lymphoideus_aggregatus
+		Colon
+		Rectum
+		canalis_analis en:anal_canal
+			Tunica_mucosa
+			Tunica_submucosa
+				Plexus_haemorrhoidalis
+			Junctio_anorectalis
+			Zona_colorectalis
+			Linea_supratransitionalis
+			Zona_transitionalis_analis
+				Sinus_analis syn:Crypta_analis
+				Glandula_analis
+			Linea_dentata syn:Linea_pectinata
+			Zona_squamosa_analis
+			Junctio_analis_cum_cute_vera
+			Cutis_analis
+				Glandulae_cutis_analis
+				Pilus_perianalis
+	hepar en:liver
+		Tunica_fibrosa
+			Capsula_fibrosa_perivascularis
+		muralium_hepaticum en:hepatic_muralium
+		lamina_hepatocyta en:hepatocyte_lamina,hepatocyte_plate,hepatic_trabecula
+			Cellula_hepatica_precursoria
+				Hepatocytus
+				Cellula_ovalis
+				Cellula_precursoria_e_medulla_ossea
+			Hepatocytus
+			Canaliculus_bilifer
+			Canalis_bilifer
+			Cholangiocytus
+			Spatium_perisinusoideum
+				Cellula_perisinusoidalis syn:Cellula_accumulans_adipem
+			Vas_sinusoideum
+				Endotheliocytus
+				Cellula_necatoria_hepatica
+				Macrophagocytus_stellatus
+			Lamina_hepatica_limitans
+		spatium_portale
+			Spatium_periportale
+			Ductulus_bilifer
+			Trias_hepatica
+				Arteria_interlobularis
+				Venas_interlobularis
+				Ductus_bilifer_interlobularis
+			Vas_capillare_interlobulare
+			Plexus_capillaris_peribiliaris
+			Vas_lymphaticum_peribiliare
+		lobulus_hepaticus_classicus syn:lobulus_hepaticus_polygonalis en:calssical_hepatic_lobule,polygonal_hepatic_lobule
+			Zona_centralis
+			Zona_intermedia
+			Zona_peripherica
+			Vena_perilobularis
+			Vena_centralis
+			Vena_sublobularis
+			Acinus_hepaticus
+		lobulus_portalis en:portal_lobule
+	vesica_biliaris syn:vesica_fellea en:gallbladder
+		Fundus_vesicae_biliaris
+		Corpus_vesicae_biliaris
+			Tunica_mucosa
+				Epithelium_simplex_columnare
+					Cholecystocytus
+					Epitheliocytus_penicillatus
+				Plica_mucosae syn:Ruga
+				Crypta_mucosae
+		Collum_vesicae_biliaris
+			Glandula_mucosa
+		Ductus_cysticus
+			Plica_spiralis
+		ductus_choledochus syn:ductus_biliaris en:bile_duct
+			Tunica_mucosa_ductus_choledochi
+				Epithelium_simplex_columnare_ductus_choledochi
+					Cholangiocytus
+					Glandula_ductus_choledochi
+			Tunica_muscularis
+				Musculus_sphincter
+			Tunica_serosa
+			Tunica_adventitia
+			Ampulla_hepatopancreatica
+				Tunica_mucosa
+				Musculus_sphincter_ampullae
+	pancreas en:pancreas
+		Pars_exocrina_pancreatis
+			Lobulus_pancreaticus
+			Septum_interlobulare
+			Acinus_pancreaticus
+				Pancreatocytus_exocrinus
+					Granulum_zymogeni
+				Cellula_centroacinosa
+		Ductus_intercalatus
+		Ductus_intralobularis
+		Ductus_interlobularis
+		Ductus_excretorius
+			Cellula_basalis
+			Cellula_principalis
+		Ductus_pancreaticus
+		Ductus_pancreaticus_accessorius
+		Pars_endocrina_pancreatis
+		Tunica_serosa
+			Mesothelium
+				Mesotheliocytus
+			Lamina_propria
+		Tela_subserosa
+		Trabecula_omentalis
+		Lobulus_adiposus
+		Macula_lactea
+		Fenestra_omentalis
+		Cavitas_peritonealis
+		
+			
+						
+					
+		
+		
+						
+						
+						
+						
+						
+						
+						
+						

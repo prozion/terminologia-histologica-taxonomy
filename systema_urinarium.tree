@@ -1,0 +1,185 @@
+systema_urinarium en:urinary_system
+	ren syn:nephros en:kidney
+		Capsula_adiposa
+		Capsula_fibrosa
+		Lobus_renalis
+		Cortex_renalis
+			Labyrinthus_corticis
+				Cortex_corticis
+			Radius_medullaris
+			Lobulus_corticalis
+				Pars_convoluta
+				Paars_radiata
+		Columna_renalis
+		Medulla_renalis
+			Pyramis_renalis
+			Medulla_externa
+				Stria_externa
+				Stria_interna
+			Medulla_interna
+			Basis_pyramidis
+			Papilla_renalis
+				Crista_renalis
+				Area_cribrosa
+					Foramen_papillare
+			Cellula_interstitialis
+	nephronum en:nephron
+		Nephronum_longum
+		Nephronum_breve
+		Nephronum_corticale
+		Nephronum_superficiale syn:Nephronum_subcapsulare
+		Nephronum_intermedium
+		Nephronum_juxtamedullare
+		corpusculum_renale en:renal_corpuscle
+			Corpusculum_superficiale
+			Corpusculum_intermedium
+			Corpusculum_juxtamedullare
+			Polus_vascularis
+				Arteriola_glomerularis_afferens
+				Arteriola_glomerularis_efferens
+			Capsula_glomerularis
+				Peripolocytus
+				Stratum_parietale syn:Paries_externus
+					Epitheliocytus_parietalis en:Parietal_epithelial_cell en-abbr:PEC
+				Stratum_viscerale syn:Paries_infernus
+					Podocytus
+				Spatium_capsulare syn:Spatium_urinarium
+			Glomerulus
+				Mesangium
+					Matrix_mesangialis
+						Mesangiocytus
+				Rete_capillare_glomerulare
+				Vas_capillare_glomerulare
+					Endotheliocytus_fenestratus
+				Membrana_basalis
+					Lamina_rara_externa
+					Lamina_densa
+					Lamina_rara_interna
+				Podocytus
+					Cytotrabecula
+					Cytopodium
+				Diaphragma_rimae
+			Polus_urinarius syn:Polus_tubularis
+		tubulus_renalis en:renal_tubule
+			Tubulus_proximalis
+				Pars_convoluta syn:Pars_contorta
+				Pars_recta
+					Segmentum_S1
+					Segmentum_S2
+					Segmentum_S3
+				Epithelium_simplex_cuboideum
+					Epitheliocytus
+						Limbus_microvillosus syn:Limbus_penicillatus
+						Limbus_plicatus_basolateralis
+							Labyrinthus_basalis
+			Ansa_nephroni
+				Crus_descendens
+				Crus_ascendens
+			Tubulus_intermedius syn:Tubulus_atenuatus
+				Crus_descendens_attenuatum
+					Crus_descendens_ansae_brevis
+						Cellula_typi_1
+					Crus_descendens_ansae_longae
+						Cellula_typi_2
+						Cellula_typi_3
+					Segmentum_preansale
+				Crus_ascendens_attenuatum
+					Cellula_typi_4
+			Tubulus_distalis
+				Pars_recta
+					Pars_recta_medullaris
+					Pars_recta_corticalis
+					Cellula_partis_rectae_tubuli_distalis
+				Macula_densa
+					Epitheliocytus_maculae_densae
+				Segmentum_postmaculare
+				Pars_convoluta syn:Pars_contorta
+					Cellula_partis_convolutae_tubuli_distalis
+				Tubulus_reuniens
+					Epitheliocytus_principalis
+					Epitheliocytus_intercalatus
+						Epitheliocytus_intercalatus_typus_A
+						Epitheliocytus_intercalatus_typus_B
+					Arcus_tubuli_reunientis
+				Ductus_colligens
+					Epitheliocytus_principalis
+					Epitheliocytus_intercalatus
+						Epitheliocytus_intercalatus_typus_A
+						Epitheliocytus_intercalatus_typus_B
+					Ductus_colligens_corticalis
+					Ductus_colligens_medullaris
+						Ductus_colligens_medullaris_externus
+						Ductus_colligens_medullaris_internus
+			Ductus_papillaris
+		complexus_juxtaglomerularis en:juxtaglomerular_complex
+			Macula_densa
+				Epitheliocytus_maculae_densae
+			Tunica_media_arteriolarum_glomerularium
+				Juxtaglomerulocytus syn:Myocytus_juxtaglomerularis
+			Insula_perivascularis_mesangii en:Perivascular_islet_of_mesangial_cell,Extraglomerular_mesangium,Polar_cushion
+				Mesangiocytus_extraglomerularis
+		vasa_sanguinea_intrarenalia en:intrarenal_blood_vessels
+			A_interlobaris
+			A_arcuata
+				A_corticalis_radiata syn:A_interlobularis
+					Arteriola_glomerularis_afferens
+					Rete_capillare_glomerulare
+					Arteriola_glomerularis_efferens
+			A_perforans_radiata
+			Arteriola_recta syn:Vasa_recta
+			R_capsularis
+			V_interlobaris
+				Fasciculus_vascularis
+					Fasciculus_primarius
+					Fasciculus_secundarius
+					Fasciculus_gigans
+					Typus_simplex
+					Typus_complex
+				Plexus_capillaris_interfascicularis
+			V_arcuata
+				V_corticalis_radiata syn:V_interlobularis
+				Venula_recta
+				Venula_stellata
+		pelvis_renalis
+			Tunica_mucosa
+				Urothelium syn:Epithelium_transitionale
+				Lamina_propria
+			Tunica_muscularis
+				Stratum_internum_longitudinale
+					Myocytus_stimulans
+				Stratum_externum_circulare
+			Tunica_adventitia
+	ureter en:ureter
+		Tunica_mucosa
+			Urothelium syn:Epithelium_transitionale
+		Tunica_muscularis
+		Tunica_adventitia
+	vesica_urinaria en:urinary_bladder
+		Tunica_mucosa
+			Urothelium syn:Epithelium_transitionale
+				Urotheliocytus_superficialis syn:Umbellocytus
+					Crusta_urothelialis
+						Granulum_uroplakini
+						Vesicula_adluminalis_urothelialis
+				Area_intermedia
+			Lamina_propria
+		Tunica_muscularis
+		Tunica_adventitia
+		Trigonum_vesicae
+			Glandula_mucosa
+	urethra_feminina en:female_urethra
+		Tunica_mucosa
+			Urothelium syn:Epithelium_transitionale
+			Epithelium_stratificatum_columnare
+			Epithelium_stratificatum_squamosum_non_cornificatum
+			Glandula_urethralis
+			Lacunae_urethrales
+		Tunica_spongiosa
+		Glandula_paraurethralis syn:Prostata_feminina
+		Tunica_muscularis
+		M_sphincter_urethrae_externus
+		Ductus_paraurethralis
+	urethra_masculina en:male_urethra ref:<t>
+			
+		
+				

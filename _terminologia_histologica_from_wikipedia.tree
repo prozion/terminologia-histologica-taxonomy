@@ -1,0 +1,50 @@
+terminologia_histologica
+	cytology
+	general_histology
+		stem_cells
+		epithelial_tissue
+			epithelial_cell
+			surface_epithelium
+			glandular_epithelium
+		connective_and_supportive_tissues
+			connective_tissue_cells
+			extracellular_matrix
+			fibres_of_connective_tisssues
+			connective_tissue_proper
+			ligaments
+			mucoid_connective_tissue syn:gelatinous_connective_tissue
+			reticular_tisue
+			adipose_tissue
+			cartilage_tissue
+			chondroid_tissue
+			bone_tissue syn:osseous_tissue
+		haemotolymphoid_complex
+			blood_cells
+			Erythrocite syn:Red_blood_cell
+			Leucocyte syn:White_blood_cell
+			Platelet syn:Thrombocyte
+			plasma
+			blood_cell_production
+			postnatal_sites_of_haematopoiesis
+				lymphoid_tissue
+		muscle_tissue
+			smooth_muscle_tissue
+			striated_muscle_tissue
+		nerve_tissue
+			Neuron
+			Synapse
+			Neurologlia
+	bones
+	joints
+	muscles
+	alimentary_system
+	respiratory_system
+	urinary_system
+	genital_system
+	endocrine_system
+	cardiovascular_system
+	lymphoid_system
+	nervous_system
+	integument
+	
+			

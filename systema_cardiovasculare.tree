@@ -1,0 +1,167 @@
+systema_cardiovasculare en:cardiovascular_system
+	cor en:heart
+		endocardium en:endocardium
+			Endothelium_endocardiacum
+			Stratum_subendotheliale
+			Stratum_myoelasticum
+		tela_subendocardiaca en:subendocardiac_layer,subendocardial_layer
+			skeleton_cordis en:cardiac_skeleton
+				Textus_connectivus_compactus
+					Forma_parallela_cum_cursibus_multis
+			valva_cordis en:cardiac_valve
+				Endothelium_endocardiacum
+				Stratum_subendotheliale
+				Stratum_myoelasticum
+					Stratum_fibrosum
+						Textus_connectivus_compactus
+							Forma_parallela_cum_cursibus_multis
+					Stratum_spongiosum
+						Textus_connectivus_laxus
+			myocardium en:myocardium
+				Cardiomyofibra syn:Myofibra_cardiaca
+					Cardiomyofibra_conducens syn:Myofibra_cardiaca_conducens
+				Cardiomyocytus syn:Myocytus_cardiacus
+					Cardiomyocytus_conducens syn:Myocytus_cardiacus_conducens
+					Cardiomyocytus_atrialis_secretans
+				Myocardium_atriorum_cordis
+					Fasciculus_horizontalis_interauricularis
+					Fasciculi_verticales
+					Anulus_atrioventricularis
+				Myocardium_ventriculorum_cordis
+					Lamina_subepicardiaca
+					Lamina_subendocardiaca
+						Lamina_intermedia_myocardii_ventriculi_sinistri
+				complexus_stimulans_cordis syn:systema_conducens_cordis en:conducting-system_of_heart
+					Nodus_sinuatrialis
+					Fasciculus_interatrialis
+					Nodus_atrioventricularis
+					Cardiomyocytus_stimulans syn:Myocytus_nodalis
+					Fasciculus_atrioventricularis
+						Crus_dextrum
+							Ramus_cruris_dextri
+						Crus_sinistrum
+							Ramus_anterior_cruris_sinistri
+							Ramus_intermedius_cruris_sinistri
+							Ramus_posterior_cruris_sinistri
+						Reticulum_conducens_subendocardiacum
+			pericardium en:pericardium
+				Pericardium_fibrosum
+				Pericardium_serosum
+					Tela_serosa
+						Mesothelium
+						Lamina_propria
+					Tela_subserosa
+					Lamina_parietalis
+					Cavitas_pericardiaca
+					Lamina_visceralis_pericardii syn:Epicardium
+	vasa_sanguinea_et_lymphatica en:blood_and_lymph_vessels
+		Endothelium_vasculare
+		Membrana_basalis
+			Membrana_basalis_continua
+			Membrana_basalis_interrupta
+		Nervus_vasis
+			Plexus_neuralis_perivascularis
+			Plexus_neuralis_periarterialis
+			Plexus_neuralis_perivenosus
+		vasa_arteriosa en:arterial_vessels
+			arteria en:artery
+				Tunica_intima syn:Tunica_interna
+					Endothelium_vasculare
+					Stratum_subendotheliale
+					Membrana_elastica_interna
+				Tunica_media
+					Myocytus_levis syn:Myocytus_non_striatus
+					Membarana_elastica_externa
+				Tunica_adventitia syn:Tunica_externa
+				Arteria_elastotypica
+					Membarana_fenestrata_elastica
+				Arteria_myotypica
+				Arteria_mixtotypica
+				Arteria_convoluta
+				Rete_arteriosum
+				Sinus_caroticus
+			arteriola en:arteriole
+				Tunica_intima syn:Tunica_interna
+					Rete_elasticum
+				Tunica_media
+				Tunica_adventitia syn:Tunica_externa
+				Arteriola_precapillaris syn:Metarteriola
+					Sphincter_precapillaris
+				Rete_arteriolare
+		vas_capillare en:capillary_vessel
+			Endothelium_non_fenestratum syn:Endothelium_continuum
+			Endothelium_fenestratum
+			Endothelium_perforatum
+			Endothelium_disjunctum
+			Pericytus
+				Cellula_adventitialis
+			Ansa_capillaris
+			Vas_capillare_arteriale syn:Vas_precapillare
+			Vas_capillare_venosum syn:Vas_postcapillare
+			Vas_capillare_sinusoideum
+				Apertura_intercellularis syn:Apertura_transcellularis
+			Lacuna_cavernosa
+			Rete_capillare
+			Gemma_endothelialis
+		vasa_venosa en:venous_vessels
+			venula en:venule
+				Tunica_intima syn:Tunica_interna
+					Endothelium_vasculare
+				Tunica_media
+				Tunica_adventitia syn:Tunica_externa
+				Venula_postcapillaris
+					Venula_altoendothelialis syn:Venula_cum_endothelio_alto
+				Venula_colligens
+				Venula_muscularis
+				Rete_venosum
+			vena en:vein
+				Tunica_interna syn:Tunica_intima
+					Valva_venosa
+						Valvula_venosa
+						Sinus_valvulae
+					Stratum_subendotheliale
+					Rete_elasticum
+				Tunica_media
+				Tunica_adventitia syn:Tunica_externa
+				Vena_myotypica
+				Vena_fibrotypica
+				Rete_venosum
+				Sinus_venosus
+				Vena_cavernosa
+				Plexus_venosus
+		anastomosis_arteriolovenularis syn:anastamosis_arteriovenosa en:arteriolovenular_anastomosis,arteriovenous_anastomosis
+			Anastamosis_arteriosum
+			Anastamosis_venosum
+		vasa_lymphatica en:lymph_vessels
+			Spatium_interstitiale_prelymphaticum
+				Accessus_transendothelialis
+			Vas_lymphocapillare
+				Endothelium_vasculare
+				Filamentum_firmans
+			Rete_lymphocapillare
+			Vas_lymphaticum_fibrotypicum syn:Vas_colligens
+				Endothelium_vasculare
+				Stratum_fibrosum
+			Vas_lymphaticum_myotypicum
+				Tunica_intima syn:Tunica_interna
+					Endothelium_vasculare
+					Stratum_subendotheliale
+					Valva_lymphatica
+						Valvula_lymphatica
+							Sinus_valvulae
+				Tunica_media
+				Tuncia_adventitia syn:Tunica_externa
+			Plexus_lymphaticus
+			Truncus_lymphaticus
+			Ductus_lymphaticus
+		vasa_vasorum en:vasa_vasorum
+			Vas_lymphaticum_vasis_sanguinei syn:Vas_lymphaticum_vasorum
+			Vas_sanguineum_vasis_sanguinei syn:Vas_sanguineum_vasorum
+			
+				
+						
+			
+			
+			
+			
+			

@@ -1,0 +1,171 @@
+systema_endocrinum en:endocrine_system
+	systema_endocrinum_dispersum en:dispersed_endocrine_system
+		Endocrinocytus_singularis syn:Cellula_endocrina_singularis
+		Endocrinocytus_gastroenteropancreaticus syn:Endocrinocytus_GEP
+	glandulae_endocrinae en:endocrine_glands
+		systema_hypothalamohypophysiale en:hypothalamohypophysial_system
+			Nucleus_parvocellularis
+				Nucleus_arcuatus
+			Tractus_tuberoinfundibularis
+			Tractus_tuberohypophysialis
+			Nucleus_magnocellularis
+				Nucleus_supraopticus
+				Nucleus_paraventricularis
+			Nucleus_neurosecretans
+			Neuroendocrinocytus syn:Cellula_neuroendocrina_hypothalami
+			Tractus_hypothalamohypophysialis
+		hypophysis syn:glandula_pituitaria en:pituitary_gland
+			Adenohypophysis
+			Pars_tuberalis
+				Endocrinocytus_gonadotropicus
+				Endocrinocytus_thyrotropicus
+				Endocrinocytus_specificus
+			Pars_intermedia
+				Endocrinocytus_basophilius
+				Endocrinocytus_corticotropicus
+				Folliculus
+					Cellula_follicularis_chromophoba
+					Colloidum
+			Pars_distalis syn:Lobus_anterior
+				Racemus_endocrinocytorum
+				Chorda_endocrinocytorum
+				Folliculus_endocrinocytorum
+				Cellula_folliculostellata
+				Endocrinocytus_chromophobus
+				Endocrinocytus_chromophilus
+					Endocrinocytus_acidophilus
+					Endocrinocytus_somatotropicus
+					Endocrinocytus_prolactinicus
+				Endocrinocytus_basophilus
+					Endocrinocytus_thyrotropicus
+					Endocrinocytus_gonadotropicus
+					Endocrinocytus_corticotropicus
+		neurohypophysis en:neurohypophysis
+			Infundibulum
+			Truncus_infundibularis
+			Eminentia_mediana
+				Zona_externa
+					Tractus_tuberohypophysialis
+						Neurofibra_neurosecretoria
+						Vesicula_neurosecretoria
+				Zona_interna
+					Ependymocytus
+					Tanycytus
+			Lobus_nervosus syn:Pars_nervosa,Lobus_posterior
+				Neurofibra_non_myelinata
+				Dilatatio_preterminalis_axonis
+				Dilatatio_terminalis_axonis
+				Substantia_neurosecretoria
+				Corpusculum_neurosecretorium
+				Pituicytus
+			Arteria_hypophysialis_superior
+				Arteria_infundibulotuberalis
+			Rete_capillare_primarium
+				Rete_superficiale
+					Ansa_capillaris_brevis
+				Rete_profundum
+					Ansa_capillaris_longa
+				Rete_subependymale
+			Arteria_hypophysialis_inferior
+			Vas_portale_longum_hypophysiale
+			Vas_portale_breve_hypophysiale
+			Rete_capillare_secundarium
+				Vas_capillare_sinusoideum_adenohypophysiale
+			Vas_capillare_neurohypophysiale
+			Vena_hypophysialis
+			Synapsis_neurohaemalis
+	glandula_pinealis syn:corpus_pineale en:pineal_gland,pineal_body ru:шишковидное_тело
+		Pinealocytus seyn:Endocrinocytus_pinealis
+		Astrocytus
+		Nervus_pinealis
+			Neurofibra_non_myelinata
+		Fibra_epithalamica
+		Acervulus syn:Corpus_arenaceum
+	glandula_thyroidea en:thyroid_gland ru:щитовидная_железа
+		Capsula_fibrosa
+		Septum_textus_connectivi
+		Lobus
+		Lobulus
+		Folliculus
+			Thyrocytus_T
+				Pseudopodium
+			Therocytus_C
+			Colloidum
+				Bulla_colloidea
+		Glandula_thyroidea_accessoria
+		Rete_capillare_perifolliculare
+	glandula_parathyroidea en:parathyroid_gland ru:паращитовидная_железа
+		Parathyrocytus_endocrinus
+			Parathyrocytus_endocrinus_lucidus
+			Parathyrocytus_endocrinus_densus syn:Parathyrocytus_principalis
+		Parathyrocytus_oxyphilicus
+	glandula_suprarenalis en:suprarenal_gland,adrenal_gland ru:надпочечники
+		Capsula
+			Lamina_fibrosa
+			Lamina_cellulosa
+		Cortex
+			Zona_glomerulosa_corticis
+			Zona_fasciculata
+				Pars_externa
+				Pars_interna
+			Zona_reticularis
+			Corticosterocytus
+				Corticosterocytus_spongiosus
+			Nodulus+accessorius
+		Medulla
+			Endocrinocytus_medullaris
+				Adrenalocytus syn:Epinophrocytus,Endocrinocytus_lucidis
+				Noradrenalocytus syn:Norepinophrocytus,Endocrinocytus_densus
+			Neuron_multipolare_autonomicum
+		Plexus_venosus_medullaris
+		Vena_centralis
+	insula_pancreatica en:pancreatic_islet ru:островки_лангерганса
+		Endocrinocytus_A syn:Glucagonocytus
+		Endocrinocytus_B syn:Insulinocytus
+		Endocrinocytus_D syn:Somatostatinocytus
+		Endocrinocytus_D1
+		Endocrinocytus_EC
+		Endocrinocytus_G_pancreaticus
+		Endocrinocytus_PP
+		Endocrinocytus_PYY
+		Endocrinocytus_secretans_ghrelinum
+	paraganglia en:paraganglia
+		Paraganglion_sympathicum
+			Cellula_paraganglionica_principalis
+				Paragangliocytus syn:Glomocytus,Endocrinocytus_granularis,Cellula_typi_I
+			Cellula_paraganglionica_accessoria
+				Epitheliocytus_sustenans
+				Gliocytus_paraganglionicus
+				Cellula_typi_II
+		Glomus_caroticum
+		Glomus_subclavium
+		Glomus_supracardiacum syn:Glomus_aorticum
+			Glomus_aorticopulmonare_superius
+			Glomus_aorticopulmonare_medium syn:Glomus_pulmonare
+			Glomus_aorticopulmonare_inferius
+		Paragangliocytus_plexus_cardiaci
+		Microparaganglion_peribronchiale
+		Glomus_tympanojugulare
+			Glomus_tympanicum
+			Glomus_jugulare
+		Glomus_intravagale
+		Glomus_juxtavagale
+		Glomus_laryngeum_superius
+		Glomus_laryngeum_inferius
+		Glomus_paraaorticum_abdominale
+		Paraganglion_parvum_plexus_nervosi_prostatici
+		Paraganglion_parvum_plexus_nervosi
+		Paraganglion_parvum_plexus_nervosi_vesicalis
+		Paraganglion_retroperitoneale
+		organum_neurohaemale en:neurohaemal_organ
+			
+				
+				
+		
+			
+			
+			
+			
+			
+			
+			

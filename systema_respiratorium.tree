@@ -1,0 +1,148 @@
+systema_respiratorium en:respiratory_system
+	Tunica_mucosa_respiratoria
+		Epithelium_respiratorium
+			Epithelium_pseudostratificatum_columnare_ciliatum
+				Epitheliocytus_ciliatus
+				Epitheliocytus_calciformis
+				Epitheliocytus_microvillosus
+				Epitheliocytus_basalis
+	cavitas_nasi en:nasal_cavity
+		Vestibulum_nasi
+			Pars_cutanea
+				Epithelium_stratificatum_squamosum_cornificatum
+				Vibrissae en:Hairs_of_vestibule_of_nose
+			Pars_transitionalis
+				Epithelium_stratificatum_squamosum_non_cornificatum
+		Pars_respiratoria
+			Tunica_mucosa_respiratoria
+				Glandula_nasalis
+					Mucocytus
+					Serocytus
+					Myoepitheliocytus
+			Stratum_cavernosum
+				Plexus_cavernosus_conchae
+		Regio_olfactoria
+		Tunica_mucosa_olfactoria
+			Glandula_olfactoria
+				Cellula_clara
+				Cellula_fusca
+				Myoepitheliocytus
+		organum_vomeronasale en:vomeronasal_organ
+			Ductus_vomeronasalis
+			Cartlago_vomeronasalis
+			Tunica_mucosa_glandularis
+			Sinus_paranasalis
+			Tunica_mucosa_respiratoria
+		pharynx en:pharynx
+		larynx en:larynx
+			Vestibulum_laryngis
+				Epithelium_stratificatum_squamosum_non_cornificatum
+				Epithelium_respiratorium
+				Glandula_epiglottica
+				Glandula_arytenoidea
+				Gemma_gustatoria_epiglottica
+				Plica_vestibularis
+			Ventricularis_laryngis
+				Epithelium_respiratorium
+				Glandula_ventriculi_laryngis
+				Sacculus_laryngis
+					Glandula_sacculi_laryngis
+			Glottis
+				Epithelium_stratificatum_squamosum_non_cornificatum
+			Cavitas_infraglottica
+				Epithelium_respiratorium
+				Glandula_laryngea
+					Mucocytus
+					Seromucocytus
+					Myoepitheliocytus
+		trachea en:trachea
+			Tunica_mucosa_respiratoria
+				Neuroendocrinocytus_respiratorius
+				Corpus_neuroepitheliale
+				Glandula_trachealis
+					Mucocytus
+					Seromucocytus
+					Myoepitheliocytus
+			Nodi_lymphoidei_tracheobronchiales
+			Tunica_fibromusculocartilaginea
+				Ligamentum_anulare
+				M_trachealis
+				Cartilagines_trachealis
+				Paries_membranaceus
+			Tunica_adventitia
+		arbor_bronchialis en:bronchial_tree
+			Bronchus
+				Tunica_mucosa_respiratoria
+					Endocrinocytus_respiratorius
+					Glandula_bronchialis
+						Mucocytus
+						Seromucocytus
+						Myoepitheliocytus
+				Tunica_fibromusculocartilaginea
+					Tunica_muscularis_spiralis
+					Cartilago_bronchialis
+				Tunica_adventitia
+	pulmo en:lung
+		Parenchyma_pulmonis
+		Interstitium_pulmonis
+		Lobulus_pulmonis
+			Bronchiolus
+				Tunica_mucosa_respiratoria
+					Epithelium_simplex_columnare_ciliatum
+					Exocrinocytus_bronchiolaris
+					Mucocytus syn:Exocrinocytus_caliciformis
+					Lamina_propria_mucosae
+						Fibra_elastica_longitudinalis
+				Tunica_muscularis
+				Tunica_adventitia
+			Bronchiolus_terminalis
+				Epithelium_simplex_cuboideum_ciliatum
+					Exocrinocytus_bronchiolaris
+					Mucocytus syn:Exocrinocytus_caliciformis
+			Acinus_pulmonaris
+			Bronchiolis_respiratorius
+				Epithelium_simplex_cuboideum_ciliatum
+					Exocrinocytus_bronchiolaris
+					Mucocytus syn:Exocrinocytus_caliciformis					
+				Fibra_elastica_longitudinalis
+				Rete_spirale_myocytorum_levium
+			Ductus_alveolaris
+				Epithelium_simplex_cuboideum_ciliatum
+				Fibra_elastica
+				Myocytus_levis
+			Atrium_alveolare
+			Sacculus_alveolaris
+			Alveolus_pulmonis
+				Epithelium_alveolare
+					Pneumocytus_typus_I
+					Pneumocytus_typus_II
+						Surfactantum
+						Corpusculum_lamellare
+				Macrophagocytus_alveolaris
+				Septum_interalveolare
+					Cellula_septalis
+					Fibra_elastica
+					Fibra_collageni
+					Porus_septalis
+			Claustrum_aerosanguineum en:Blood_air_barrier
+				Lamina_pneumocytica
+				Lamina_basalis
+				Lamina_endotheliocytica
+	pleura en:pleura
+		Tunica_serosa
+			Mesothelium
+				Mesotheliocytus
+			Lamina_propria
+		Pleura_parietalis
+			Tela_subserosa
+		Pleura_visceralis syn:Pleura_pulmonalis
+			Tela_subserosa
+				Lamina_submesothelialis
+					Fibra_elastica_superficialis
+					Fibra_collagenosa_profunda
+				Lamina_vasculosa
+		Cavitas_pleuralis
+				
+					
+				
+			

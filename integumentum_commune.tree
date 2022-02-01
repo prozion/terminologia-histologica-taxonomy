@@ -1,0 +1,195 @@
+integumentum_commune en:the_integument
+	cutis en:skin
+		epidermis en:epidermis
+			Epithelium_stratificatum_squamosum_cornificatum
+				Stratum_disjunctum
+				Stratum_corneum
+				Stratum_lucidum
+				Stratum_granulosum
+				Stratum_spinosum
+				Stratum_basale
+				Cellula_basalis
+				Cellula_epidermalis_precursoria
+			Keratinocytus_spinosus
+				Tonofibrilla
+					Tonofilamentum
+				Macula_adhaerens syn:Desmosoma
+			Keratinocytus_granulosus
+				Granulum_lamellosum
+				Granulum_keratohyalini
+					Filamentum_keratini
+			Keratinocytus_squamosus syn:Corneocytus_epidermalis
+				Lamina_densa_subplasmalemmalis
+				Corneosoma
+			Squama_cornea
+			Complexus_epithelialis_tactus
+				Epitheliocytus_tactilis
+				Terminatio_neuralis
+			Melanocytus
+				Melanosoma syn:Granulum_melanini
+					Status_I_melanosoma syn:Premelanosoma
+					Status_II_melanosoma syn:Vesicula_striata
+					Status_III_melanosoma
+					Status_IV_melanosoma
+			Dendrocytus
+				Vesicula_lageniformis_striata
+			Terminatio_neuralis_libera
+		junctio_dermoepidermalis en:dermoepidermal_junction
+		dermis syn:corium en:dermis,corium
+			Stratum_papillare
+				Papilla
+			Stratum_reticulare
+			Ansa_capillaris_intrapapillaris
+			Rete_arteriosm_subpapillare
+			Rete_arteriosm_dermale
+			Plexus_venosus_subpapillaris_superficialis
+			Plexus_venosus_subpapillaris_profundus
+			Plexus_venosus_dermalis_profundus
+			Rete_lymphocapillare_profundum_cutis
+			Plexus_neuralis_subepidermalis
+			Plexus_dermalis
+			Terminatio_neuralis_libera
+	tela_subcutanea syn:subcutis,hypodermis en:subcutaneous_tissue
+		Panniculus_adiposus
+			Retinaculum_cutis
+		Plexus_venosus_subcutaneus
+		Plexus_lymphaticus_subcutaneus
+		Rete_lymphocapillare_subcutaneum
+		Plexus_neuralis_subcutaneus
+	adnexae_cutis en:skin_appendages
+		pilus en:hair
+			Trichocytus
+			Lanugo en:Downy_hair,Primary_hair
+			Capillus en:Scalp_hair
+			Pilus_terminalis en:Terminal_hair
+			Vellulus en:Vellus_hair
+			Apex_pili en:Apex
+			Stipes_pili syn:Scapus en:Hair_shaft
+				Cuticula
+					Epitheliocytus_cuticularis
+					Keratinum_durum
+				Cortex
+					Granulum_trichohyalini
+				Medulla
+					Epitheliocytus_polyhedralis
+					Cellula_cornificata
+						Keratinum_molle
+				Zona_keratogenica
+				Radix_pili
+				Bulbus_pili
+				Papilla_dermalis_pili
+					Matrix_epithelialis
+					Keratinocytus_matricis
+					Melanocytus_follicularis
+					Rete_capillare_papillae_pili
+				Vagina_radicularis_epithelialis_interna syn:Vagina_matricalis en:Internal_root_shealth
+					Cuticula
+					Stratum_internum
+					Stratum_externum
+				Vagina_radicularis_epithelialis_externa syn:Vagina_comitans
+				Torus_gemmalis_folliculi_pili en:Bulge,Hair_bulge
+			Membrana_vitrea
+			Vagina_radicularis_dermalis
+			Folliculus_pili
+				Canalis_pilaris
+					Canalis_intraepidermalis
+					Infundibulum syn:Canalis_dermalis
+					Isthmus
+				Corpusculum_nervosum_lanceolatum
+					Terminatio_lanceolata
+			Musculus_arrector_pili
+			Fabrica_pilosebacea
+				Glandula_sebasea_pilaris
+				Acinus_sebaceus
+				Cellula_basalis_peripherica
+				Cellula_vacuolata_degenerans
+				Ductus_excretorius
+					Epithelium_stratificatum_squamosum_cornificatum					
+			Folliculus_pili_primarius
+			Folliculus_pili_secundarius
+			Folliculus_anagenus
+			Folliculus_catagenus
+			Folliculus_telogenus
+		unguis en:nail
+			Lamina_unguis
+				Pars_dorsalis_laminae_unguis
+				Pars_intermedia_laminae_unguis
+				Pars_ventralis_laminae_unguis
+				Lunula
+			Hyponychium
+			Eponychium
+			Lectulus en:Nail_bed
+				Epithelium_lectuli
+					Stratum_basale
+					Stratum_spinosum
+				Crista_lectuli
+				Sulcus_lectuli
+				Ligamentum_lectuli
+			Vallum_unguis
+				Vallum_laterale
+				Vallum_proximale
+			Radix_unguis
+			Matrix_unguis
+				Matrix_dorsalis_unguis syn:Matrix_proximalis_unguis
+				Matrix_ventralis_unguis syn:Matrix_distalis_unguis
+				Stratum_basale
+				Stratum_spinosum
+				Stratum_corneum
+				Zona_keratogenica
+					Onychocytus
+				Crista_matricis
+				Sulcus_matricis
+		glandulae_cutis en:skin_glands
+			Glandula_sudorifera_apocrina
+				Portio_terminalis
+				Tubulus_secretorius_contortus
+					Cellula_glandularis_clara
+					Cellula_glandularis_densa
+					Myoepitheliocytus_fusiformis
+				Ductus_sudorifer
+			Glandula_sudorifera_merocrina syn:Glandula_sudorifera_eccrina en:Eccrine_sweat_gland
+				Portio_terminalis
+				Tubulus_secretorius_contortus
+					Cellula_glandularis_clara
+					Cellula_glandularis_densa
+					Myoepitheliocytus_fusiformis
+					Ductus_sudorifer en:Excretory_duct
+					Porus_sudorifer
+			Glandula_subacea_holocrina
+				Glandula_sebacea_adnexa_pili
+				Glandula_sebacea_libera
+					Sacculus_glandularis
+						Sebocytus syn:Exocrinocytus_sebaceus
+							Sebum
+					Ductus_glandularis
+	mamma en:breast
+		Cutis
+		Stratum_adiposum
+		Stratum_fibrosum
+		Glandula_mammaria
+			Lobus_mammae
+			Lobulus_mammae
+				Septum_interlobulare
+				Alveolus_glandulae_lactantis
+					Galactocytus syn:Exocrinocytus_lacteus
+						Gutta_adipis
+						Granulum_proteini
+					Stratum_myoepitheliale
+				Ductus_extralobularis
+				Ductus_intralobularis
+			Ductus_lactifer
+		Papilla_mammae
+			Sinus_lactifer
+			Myocytus_levis_longitudinalis
+			Musculus_sphincter_papillae
+			Ostium_papillare
+			Glandula_sebacea_libera
+		Areola_mammae
+			Glandula_areolaris
+		Rete_lymphaticum_interlobulare
+		Plexus_neuralis_interlobularis
+		Plexus_neuralis_parapapillaris
+				
+				
+					
+		

@@ -1,0 +1,42 @@
+musculi en:muscles
+	Textus_muscularis_striatus_non_cardiacus
+	Fasciculus_muscularis
+	Endomysium
+	Perimysium
+	Epimysium
+	Myofibra_extrafuslais
+	Fusus_neuromuscularis
+		Capsula
+			Lamina_interna
+			Lamina_externa
+		Myofibra_intrafusalis
+			Myofibra_sacculiformis
+			Myofibra_catenaformis
+		Spatium_periaxiale
+		Terminatio_neuralis_anulospiralis
+		Terminatio_neuralis_racemosa
+	Synapsis_neuromuscularis syn:junctio_neuromuscularis
+	Junctio_myotendinae
+		Microfibrilla_myotendinea
+	Tendo
+		Fasciculus_tendineus
+			Fibra_tendinea
+		Tendinocytus
+		Organum_sensorium_tendinis
+	Endotendo
+	Peritendo syn:Paratendo
+	Epitendo
+	Vagina_tendinis
+		Pars_perietalis
+		Pars_perietalis
+		Pars_tendinea
+		Stratum_fibrosum syn:Vagina_fibrosa
+		Stratum_synoviale syn:Vagina_synovialis
+		Mesotendo
+	Enthesis_tendinis
+		Enthesis_fibrocartilaginea
+		Enthesis_fibrosa
+		Enthesis_ossea
+		Enthesis_periostea
+	Bursa_synovialis
+		Stratum_fibrosum

@@ -1,0 +1,74 @@
+juncturae en:joints
+	juncturae_fibrosae en:fibrous_joints
+		Syndesmosis
+			Ligamentum_interosseum
+				Fibra_collageni
+			Gomphosis
+				Periodontium syn:Desmodontium
+	juncturae_cartilagineae en:cartilaginus_joints
+		Synchondrosis
+			Cartilago_hyalina
+			Cartilago_epiphysialis
+				Cartilago_epiphysialis_bipolaris
+					Cartilago_epiphysialis_symmetrica
+					Cartilago_epiphysialis_asymmetrica
+		Symphysis
+			Facies_ossea
+			Cartilago_hyalina
+				Intervallum_interosseum
+			Cartilago_fibrosa
+	symphysis_intervertebralis en:intervertebral_symphysis
+		Facies_articularis
+		Epiphysis_anularis
+			Textus_osseus_compactus
+			Cartilago_hyalina_calcificata
+			Linea_limitans
+			Cartilago_hyalina
+		Anulus_fibrosus
+			Lamina_collageni
+				Fibra_collageni
+				Fibrocytus
+				Fibra_elastica
+			Cartilago_fibrosa
+		Pars_centralis
+			Textus_osseus_spongiosus syn:Textus_osseus_trabecularis
+			Cartlago_hyalina_calcificatas
+			Cartilago_hyalina
+		Nucleus_pulposus
+			Cellula_notochordalis_multinucleata
+			Cartilago_fibrosa
+	juncturas_synoviales syn:Articulationes,Diathroses en:synovial_joints,diarthroses
+		Cartilago_articularis
+			Zona_tangentialis
+			Zona_transitionalis
+			Zona_radiata
+			Linea_limitans
+			Lamina_calcificata_subchondralis
+				Cartilago_hyalina_calcificata
+				Textus_osseus_subchondralis
+		Capsula_articularis
+			Membrana_fibrosa syn:Stratum_fibrosum
+			Membrana_synovialis syn:Stratum_synoviale
+				Typus_fibrosus
+				Typus_alveolaris
+				Typus_adiposus
+				Pars_villosa
+				Pars_plana
+				Plica_synovialis
+				Villus_synovialis
+				Intima_synovialis
+					Synoviocytus syn:Cellula_synovialis
+						Synovyocytus_phagocyticus
+						Synovyocytus_secretorius
+				Subintma_fibrovascularis
+				Liquor_synovialis
+		Meniscus_articularis
+			Pars_peripherica
+				Fasciculi_circulares_collageni
+			Pars_centralis
+				Fasciculi_radiales_collageni
+			Canalis_cartilaginis
+		Ligamenta
+			
+			
+						
